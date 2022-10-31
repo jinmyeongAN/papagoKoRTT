@@ -27,7 +27,7 @@ curl -X 'POST' \
 }'
 ```
 #### Request URL
-`http://{host}/papago/
+`http://{host}/papago/`
 
 #### Response body
 ```
