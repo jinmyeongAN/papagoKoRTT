@@ -7,3 +7,30 @@ papago를 이용한 한국어 Round-Trip-Translation REST API 입니다.
    - 버전에 맞는 `chromedriver` 다운로드
    - 다운로드 링크: https://chromedriver.chromium.org/downloads
 - `$ uvicorn main:app --reload`
+## Schema
+### Request
+#### Request body
+```
+{
+  "sentence": {input string}
+}
+```
+### Response
+#### curl
+```
+curl -X 'POST' \
+  'http://{host}/papago/' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "sentence": {input string}
+}'
+#### Request URL
+```
+http://{host}/papago/
+
+#### Response body
+```
+{
+  "sentence": {output string}
+}
