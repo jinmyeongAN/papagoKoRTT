@@ -10,7 +10,7 @@
 ## Schema
 ### Request
 #### Request body
-```
+```JSON
 {
   "sentence": {input string}
 }
@@ -30,7 +30,7 @@ curl -X 'POST' \
 `http://{host}/papago/`
 
 #### Response body
-```
+```JSON
 {
   "sentence": {output string}
 }
