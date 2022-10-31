@@ -32,7 +32,7 @@ class PapagoKoRTT:
             print('='*30)
             print('ERROR translation ', '\n', 'ERROR IS :::::::', e)
 
-    def backTranslation(self, input):
+    def backTranslation(self):
         try:
             self.button_change_src_tgt.click()
             
