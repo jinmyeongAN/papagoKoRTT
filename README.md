@@ -7,6 +7,9 @@
    - 버전에 맞는 `chromedriver` 다운로드
    - 다운로드 링크: https://chromedriver.chromium.org/downloads
 - `$ uvicorn main:app --reload`
+## Example
+<img width="1367" alt="스크린샷 2022-10-31 오후 6 47 47" src="https://user-images.githubusercontent.com/41921073/198979983-eb005bad-3736-4e10-914a-8b9edd27e28c.png">
+
 ## Schema
 ### Request
 #### Request body
