@@ -1,5 +1,5 @@
 # 🦆 papagoKoRTT 🦆
-`papago`를 이용한 한국어 `Round-Trip-Translation` `REST API 입니다.
+`papago`를 이용한 한국어 `Round-Trip-Translation` `REST API` 입니다.
 ## Quick start
 - `$ pip install -r requirement.txt`
 - `/utils/` 폴더 안에 자신의 `OS`에 맞는 `chromedriver` 설치
