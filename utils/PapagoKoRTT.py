@@ -47,7 +47,13 @@ class PapagoKoRTT:
             print('ERROR backTranslation', '\n', 'ERROR IS :::::::', e)
 
     def roundTripTranslation(self):
-        self.translation(self.sentence)
-        output = self.backTranslation()
+        try:
+            self.translation(self.sentence)
+            output = self.backTranslation()
 
-        return output
+            return output
+        except Exception as e:
+            print('='*30)
+            print('ERROR backTranslation', '\n', 'ERROR IS :::::::', e)
+
+            return self.sentence
