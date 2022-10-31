@@ -25,9 +25,9 @@ curl -X 'POST' \
   -d '{
   "sentence": {input string}
 }'
-#### Request URL
 ```
-http://{host}/papago/
+#### Request URL
+`http://{host}/papago/
 
 #### Response body
 ```
